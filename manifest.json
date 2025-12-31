@@ -1,0 +1,30 @@
+{
+    "odoo_dump": "1",
+    "db_name": "db_compose_auto_clean",
+    "version": "18.0-20251121",
+    "version_info": [
+        18,
+        0,
+        0,
+        "final",
+        0,
+        ""
+    ],
+    "major_version": "18.0",
+    "pg_version": "17.0",
+    "modules": {
+        "ica_web_responsive": "18.0.1.0",
+        "base_import": "18.0.2.0",
+        "base_import_module": "18.0.1.0",
+        "base_setup": "18.0.1.0",
+        "html_editor": "18.0.1.0",
+        "web": "18.0.1.0",
+        "web_editor": "18.0.1.0",
+        "web_tour": "18.0.1.0",
+        "web_unsplash": "18.0.1.1",
+        "base": "18.0.1.3",
+        "bus": "18.0.1.0",
+        "iap": "18.0.1.1",
+        "auth_totp": "18.0.1.0"
+    }
+}
