@@ -1,7 +1,7 @@
 from odoo import models, fields
 
 class Vehicle(models.Model):
-    _name = 'cdn.vehicle'
+    _name = 'compose_auto_clean.vehicle'
     _description = 'Tabel Kendaraan'
 
     name = fields.Char(string='Plat Nomor Kendaraan', required=True)
@@ -12,4 +12,4 @@ class Vehicle(models.Model):
     brand = fields.Char(string='Merek Kendaraan')
     color = fields.Char(string='Warna Kendaraan')
     customer_id = fields.Many2one('res.partner', string='Pemilik Kendaraan', required=True, ondelete='cascade')
-    wash_order_ids = fields.One2many('cdn.wash.order', 'vehicle_id', string='Riwayat Cuci')
+    wash_order_ids = fields.One2many('compose_auto_clean.carwash_order', 'vehicle_id', string='Riwayat Cuci')

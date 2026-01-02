@@ -26,6 +26,7 @@ Long description of module's purpose
         # 'security/ir.model.access.csv',
         'views/menu.xml',
         'views/vehicle.xml',
+        'views/carwash_order.xml',
         'views/views.xml',
         'views/templates.xml',
     ],
