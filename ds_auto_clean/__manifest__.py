@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "ds_auto_clean",
+    'name': "Compose Auto Clean",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
@@ -22,7 +22,10 @@ Long description of module's purpose
 
     # always loaded
     'data': [
+        # 'security/groups.csv',
         # 'security/ir.model.access.csv',
+        'views/menu.xml',
+        'views/vehicle.xml',
         'views/views.xml',
         'views/templates.xml',
     ],
