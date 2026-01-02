@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+
+access_user_cdn_vehicle,access.user.cdn.vehicle,model_cdn_vehicle,group_auto_clean_user,1,1,1,0
+access_admin_cdn_vehicle,access.admin.cdn.vehicle,model_cdn_vehicle,group_auto_clean_admin,1,1,1,1
